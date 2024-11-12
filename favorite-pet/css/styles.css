@@ -1,0 +1,48 @@
+body
+{
+    background-color:  lightgrey;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-item{
+    display:inline-block;
+    padding: 15px;
+    background-color: white;
+}
+
+nav{
+    background-color: lightgrey;
+    border-bottom: 1px solid white;
+}
+.pet-info { 
+    width: 30%;
+    background-color: beige;
+    height: 500px;
+    float: left;
+}
+
+.pet-details {
+    width: 70%;
+    background-color:lightgrey;
+    height:500px;
+}
+
+.pet-details img { 
+    width: 175px;
+    border-radius: 10%;
+}
+
+.pet-name {
+    text-align: center;
+}
+
+.pet-name img {
+    width: 75%;
+    border-radius:10%;
+    border-style:dashed;
+}
+
+.pet-stats ul li {
+    list-style-type: circle;
+}
